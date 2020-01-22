@@ -1,12 +1,14 @@
 <template>
-  <v-container>
+  <v-container
+  style="background:#16161a"
+  >
     <v-layout
       text-center
       wrap
     >
       <v-flex xs12>
         <v-img
-          :src="require('../assets/logo.svg')"
+          :src="require('../assets/vapeLogo.jpg')"
           class="my-3"
           contain
           height="200"
